@@ -1,16 +1,9 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
+  background-color: lightblue;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -22,17 +15,85 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: lightblue;
+
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
+  background-color: lightblue;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: lightblue;
+  color: black;
+  display: center;
+  
 }
+
+.black {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(43, 42, 42);
+  /* display: flex; */
+  flex-direction: column;
+  text-align: center;
+  color: rgb(10, 10, 10);
+  
+  margin-left: 0px;
+
+}
+
+.button1 {
+  width: 80px;
+  height: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: rgb(89, 178, 238);
+
+}
+
+.button2 {
+  width: 80px;
+  height: 40px;
+  display: right;
+  margin-left: 150px;
+  margin-right: 200px;
+  border-radius: 15px;
+  background-color: rgb(89, 178, 238);
+
+
+
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50vh;
+  width: 70vw;
+  background-color: white;
+  color: black;
+  margin-left: 190px;
+  margin-top: 40px;
+  
+}
+
+.inner-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+}
+
+.App {
+  background-color: lightblue;
+
+}
+
